@@ -525,4 +525,4 @@ d = {
     "PATCH_TEXTS": PATCH_TEXTS,
     "PLANE_TEXTS": PLANE_TEXTS,
 }
-json.dump([d],open("./en_message.otrx",mode="w+"), ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
+json.dump(d,open("./en_message.otrx",mode="w+"), ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
